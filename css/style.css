@@ -1,0 +1,262 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.nav-link{
+    color: black !important;
+    font-size: 15px;
+    padding: 0 0 5px 0;
+    display: unset;
+
+}
+.p{
+    color:#000;
+}
+h6{
+    color: #ee5057;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    font-family: 'poppins';
+
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+}
+.who{
+    background-color: rgb(255, 255, 255, .2);
+    border-style: none;
+    margin: 50px;   
+    margin-bottom: 50px; 
+    line-height: normal;
+    padding: 10px;
+    
+
+}
+.h1-about {
+    background-color: rgb(255, 255, 255, .2);
+    text-align: center;
+    border-style: none;
+    margin-top: -50px;
+    margin-bottom: -40px;
+    font-size: larger;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+h2{
+    color:#52A050;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: 'poppins';
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
+
+/* start: global styles */
+body {
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.7;
+}
+
+* {
+    outline: none;
+}
+
+*:not(.slick-track):not(.slick-list) {
+    transition: 0.4s;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    color: #f69314;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+p.large-paragraph {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/* end: global styles */
+
+/* start: properties styles */
+#properties {
+    margin: 4rem 0 8rem;
+    position: relative;
+}
+
+#properties h2 {
+    margin-bottom: 3rem;
+}
+
+#properties .container {
+    position: relative;
+}
+
+#properties .container:before {
+    content: "/";
+    position: absolute;
+    right: 80px;
+    top: 18px;
+    color: #999;
+}
+
+#properties-slider a.slick-arrow {
+    color: #000;
+    position: absolute;
+    top: -78px;
+    right: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+#properties-slider a.slick-prev {
+    right: 80px;
+}
+
+#properties-slider .slick-slide {
+    padding: 0 15px;
+}
+
+#properties-slider img {
+    width: 100%;
+    display: block;
+}
+
+#properties-slider .property-details {
+    padding: 1rem;
+}
+
+#properties-slider .price {
+    font-size: 1.2rem;
+    color: #343a40;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+}
+
+#properties-slider .property-details span {
+    font-size: 0.8rem;
+    padding-right: 15px;
+}
+
+#properties-slider .property-details span.baths {
+    padding-left: 10px;
+}
+
+#properties-slider .property-details span.sqft {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+#properties-slider .property-details span.beds,
+#properties-slider .property-details span.baths {
+    border-right: 1px solid #888;
+}
+
+#properties-slider .property-details address {
+    font-size: 0.8rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+}
+
+#properties button.rounded {
+    display: block;
+    margin: 2rem auto 0;
+    width: 350px;
+}
+
+/* end: properties styles */
+
+
+.booking-details{
+    font-size: large;
+    color: green;
+}
+.hide-hide{
+    display: none;
+}
+.work1 .work2{
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .work1 .work2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .work1.work2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .work1 .work2:hover span {
+    padding-right: 25px;
+  }
+  
+  .work1 .work2:hover span:after {
+    opacity: 1;
+    right: 0;
+
+  }
+  /* My editing */
+  .mr-auto{
+    color: #000;
+  }
+  .link{
+    color: white;
+  }
+
+  
